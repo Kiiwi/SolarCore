@@ -3,11 +3,6 @@
 import numpy as np
 
 import constants as const
-
-import time
-
-import sys
-
 import functions as func
 
 
@@ -58,7 +53,7 @@ def integrate():
             break
         else:
             # Steady increase of dm
-            for x in range(k+1):
+            for x in range(k + 1):
                 if i < i_array[x]:
                     dm = dm_array[x]
 

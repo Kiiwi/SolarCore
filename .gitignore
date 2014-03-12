@@ -1,3 +1,5 @@
 *.name
 *.iml
 *.xml
+*.png
+*.lyx#

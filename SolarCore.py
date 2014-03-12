@@ -7,15 +7,15 @@ solar core. This project is the first term project in AST3310 at UiO
 
 # Importing packages
 import matplotlib.pyplot as plt
+
 import integration
 import plots
 
 
 if __name__ == "__main__":
-
     # Calling the integration script
     t, m, r, l, p, rho, epsilon, T0, M0, R0, \
-        L0, P0, initial_rho, initial_epsilon, i_break = integration.integrate()
+    L0, P0, initial_rho, initial_epsilon, i_break = integration.integrate()
 
     # Calling the plotting script
     plots.plot_l(m, l, M0, L0, i_break)
