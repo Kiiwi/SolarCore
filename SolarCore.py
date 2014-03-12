@@ -31,5 +31,3 @@ if __name__ == "__main__":
 # Info
 __author__ = 'Tommy Ryan'
 __email__ = 'tommylry@student.matnat.uio.no'
-
-
